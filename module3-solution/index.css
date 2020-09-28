@@ -1,10 +1,36 @@
-a > h1{
-	text-decoration-style: none;
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
 }
 
-/*body {
-  /*(font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
-  font-family: 'Oxygen', sans-serif;*/
+
+div>a {
+	text-decoration: none;
+}
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 5px;
+  text-align: left;
+}
+
+
+div>ul {
+	background-color: #FFA07A;
+	text-decoration: none;
+}
+
+#color {
+	height: 1000px;
+	background-color: #CD853F;
+}
+
+#head {
+	text-align: center;
+	font-size: 15px;
+	font-weight: 50%;
+}
+p.text-center {
+	font-size: 50px
 }
