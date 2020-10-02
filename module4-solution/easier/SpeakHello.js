@@ -2,12 +2,12 @@
 // See Lecture 52, part 2
 
 (function (window) {
-	var speakWord = "Hello";
-	var helloSpeaker{};
+	var helloSpeaker={};
 	helloSpeaker.speak = function (name) {
   	console.log(speakWord + " " + name);
 }
 
+var speakWord = "Hello";
 window.helloSpeaker = helloSpeaker;
 
 })(window);
